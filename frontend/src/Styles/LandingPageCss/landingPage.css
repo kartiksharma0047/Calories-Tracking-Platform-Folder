@@ -1,0 +1,22 @@
+.fixedBackgroundImage{
+    background-image: url('../../Assets/images/LandingPageImage.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ArrowUlStyle{
+    list-style-type:circle;
+}
+
+.landingPageSignUpButton{
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.landingPageSignUpButton:hover{
+    background-color: #072213;
+    color: white;
+}
+.landingPageSignUpButton:active{
+    transform: scale(0.85);
+}

@@ -1,0 +1,11 @@
+.headerComponent{
+    --fontAwsomeLogoColor-inverse:#000000;
+}
+html[data-theme="dark"] .headerComponent{
+    --fontAwsomeLogoColor-inverse:#ffffff;
+}
+
+.fontAwsomeUserIcon{
+    border:1px solid var(--fontAwsomeLogoColor-inverse);
+    border-radius: 50%;
+}

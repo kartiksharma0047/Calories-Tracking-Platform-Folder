@@ -1,7 +1,6 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "./bootstrapExtendedClasses.css";
-@import "./colors.css";
-
+@import "./themeColors.css";
 body {
   font-family: sans-serif;
 }

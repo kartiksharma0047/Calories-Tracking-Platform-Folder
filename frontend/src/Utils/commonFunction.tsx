@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import blackOnlyCalsLogo from "../Assets/logos/OnlyCals-Logo_black.svg";
-import whiteOnlyCalsLogo from "../Assets/logos/OnlyCals-Logo_black.svg";
+import whiteOnlyCalsLogo from "../Assets/logos/OnlyCals-Logo_white.svg";
 
 export default function usePageTitle(title: string) {
   useEffect(() => {

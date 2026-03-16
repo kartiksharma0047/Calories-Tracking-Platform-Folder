@@ -2,8 +2,8 @@
   --bg-background: #ffffff;
   --text--color: #000000;
   --inverse-bg-background: #212121;
-  --border--color: #ffffff;
-  --inverse-border--color: #000000;
+  --border-color: #ffffff;
+  --inverse-border-color: #000000;
   --LandingPageTextColor-LoginBtn: #14723d;
   --LandingPageTextColor-SectionText: #072213;
 }
@@ -12,8 +12,8 @@ html[data-theme="dark"] {
   --bg-background: #212121;
   --text--color: #ffffff;
   --inverse-bg-background: #ffffff;
-  --border--color: #000000;
-  --inverse-border--color: #ffffff;
+  --border-color: #000000;
+  --inverse-border-color: #ffffff;
   --LandingPageTextColor-LoginBtn: #29cf83;
   --LandingPageTextColor-SectionText: #eefff5;
 }
@@ -34,11 +34,11 @@ html[data-theme="dark"] {
 }
 
 .border-color {
-  border-color: var(--border--color);
+  border-color: var(--border-color);
 }
 
 .border-color-inverse {
-  border-color: var(--inverse-border--color);
+  border-color: var(--inverse-border-color);
 }
 
 .text-color {

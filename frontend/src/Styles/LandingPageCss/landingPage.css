@@ -1,18 +1,20 @@
 .landingPage {
   --LandingPageTextColor-LoginBtn: #14723d;
   --LandingPageTextColor-SectionText: #072213;
-  --landingPageSignUpButton-color: black;
-  --landingPageSignUpButton-background-color: white;
-  --landingPageSignUpButton-color-hover: white;
-  --landingPageSignUpButton-background-color-hover: #072213;
+  --landingPageButton-color: black;
+  --landingPageButton-background-color: white;
+  --landingPageButton-color-hover: white;
+  --landingPageButton-background-color-hover: #007033;
+  --landingPageButton-border-color: black;
 }
 html[data-theme="dark"] .landingPage {
   --LandingPageTextColor-LoginBtn: #29cf83;
   --LandingPageTextColor-SectionText: #eefff5;
-  --landingPageSignUpButton-color: white;
-  --landingPageSignUpButton-background-color: #072213;
-  --landingPageSignUpButton-color-hover: black;
-  --landingPageSignUpButton-background-color-hover: white;
+  --landingPageButton-color: white;
+  --landingPageButton-background-color: #003b1a;
+  --landingPageButton-color-hover: black;
+  --landingPageButton-background-color-hover: white;
+  --landingPageButton-border-color: rgb(63, 63, 63);
 }
 
 .LandingPageTextColor-LoginBtn {
@@ -22,101 +24,72 @@ html[data-theme="dark"] .landingPage {
   color: var(--LandingPageTextColor-SectionText);
 }
 
-.fixedBackgroundImage {
+.LandingPageSectionA {
+  height: 710px;
+}
+.LandingPageSectionB {
+  height: 1300px;
+}
+
+.fixedBackgroundImage1 {
   background-image: url("../../Assets/images/LandingPageImage.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.CircleUlStyle {
-  list-style-type: circle;
+.landingPageCustomFixed1 {
+  height: 520px;
 }
-
-.landingPageSignUpButton {
-  background-color: var(--landingPageSignUpButton-background-color);
-  color: var(--landingPageSignUpButton-color);
-  transition: all 0.2s ease;
-}
-
-.landingPageSignUpButton:hover {
-  background-color: var(--landingPageSignUpButton-background-color-hover);
-  color: var(--landingPageSignUpButton-color-hover);
-}
-.landingPageSignUpButton:active {
-  transform: scale(0.85);
-}
-.LandingPagePointer{
-    cursor: pointer;
-}
-
-.landingPage {
-  --LandingPageTextColor-LoginBtn: #14723d;
-  --LandingPageTextColor-SectionText: #072213;
-  --landingPageSignUpButton-color: black;
-  --landingPageSignUpButton-background-color: white;
-  --landingPageSignUpButton-color-hover: white;
-  --landingPageSignUpButton-background-color-hover: #072213;
-}
-html[data-theme="dark"] .landingPage {
-  --LandingPageTextColor-LoginBtn: #29cf83;
-  --LandingPageTextColor-SectionText: #eefff5;
-  --landingPageSignUpButton-color: white;
-  --landingPageSignUpButton-background-color: #072213;
-  --landingPageSignUpButton-color-hover: black;
-  --landingPageSignUpButton-background-color-hover: white;
-}
-
-.LandingPageTextColor-LoginBtn {
-  color: var(--LandingPageTextColor-LoginBtn);
-}
-.LandingPageTextColor-SectionText {
-  color: var(--LandingPageTextColor-SectionText);
-}
-
-.fixedBackgroundImage {
-  background-image: url("../../Assets/images/LandingPageImage.jpg");
-  background-size: cover;
-  background-position: center;
+.fixedBackgroundImage2 {
+  background-image: url("../../Assets/images/LandingPageImage\(3\).png");
+  background-size: 50%;
+  background-position: 850px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100%;
 }
 .CircleUlStyle {
   list-style-type: circle;
 }
 
-.landingPageSignUpButton {
-  background-color: var(--landingPageSignUpButton-background-color);
-  color: var(--landingPageSignUpButton-color);
-  transition: all 0.2s ease;
+.landingPageButton {
+  border: 1px solid var(--landingPageButton-border-color);
+  background-color: var(--landingPageButton-background-color);
+  color: var(--landingPageButton-color);
+  transition:
+    background-color 0.2s ease,
+    border 0.2s ease,
+    color 0.2s ease;
 }
 
-.landingPageSignUpButton:hover {
-  background-color: var(--landingPageSignUpButton-background-color-hover);
-  color: var(--landingPageSignUpButton-color-hover);
+.landingPageButton:hover {
+  background-color: var(--landingPageButton-background-color-hover);
+  color: var(--landingPageButton-color-hover);
 }
-.landingPageSignUpButton:active {
+.landingPageButton:active {
   transform: scale(0.85);
 }
-.LandingPagePointer{
-    cursor: pointer;
+.LandingPagePointer {
+  cursor: pointer;
 }
 
-.languageDropdown{
-  max-height:150px;
-  width:130px;
-  overflow-y:auto;
-  border-radius:4px;
-  box-shadow:0 0px 10px rgba(0,0,0,0.4);
-  scrollbar-width:none;
-  -ms-overflow-style:none;     
+.languageDropdown {
+  max-height: 150px;
+  width: 130px;
+  overflow-y: auto;
+  border-radius: 4px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-.languageDropdown::-webkit-scrollbar{
-  display:none;
+.languageDropdown::-webkit-scrollbar {
+  display: none;
 }
-.languageOption{
-  padding:6px 0px;
+.languageOption {
+  padding: 6px 0px;
 }
 
-.languageOption:hover{
-  background:rgb(223, 223, 223);
+.languageOption:hover {
+  background: rgb(223, 223, 223);
 }
